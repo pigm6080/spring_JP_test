@@ -19,5 +19,12 @@ public class tripController {
 		
 		return "trip";
 	}
+	
+	@GetMapping("/detail")
+	public String detail() {
+		
+		return "/trip/detail";
+	}
+	
 
 }
